@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script src="/static/script.js" defer></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>歡迎光臨，請註冊登入系統</h1>
+        <h2>註冊帳號</h2>
+        <form id="signupForm" method="POST" action="/signup">
+            <label>
+                姓名
+                <input type="text" name="name">
+            </label>
+            <br><br>
+
+            <label>
+                信箱
+                <input type="text" name="email">
+            </label>
+            <br><br>
+
+            <label>
+                密碼
+                <input type="password" name="password">
+            </label>
+            <br><br>
+            <button type="submit">註冊</button>
+        </form>
+    </div>
+
+    <hr class="divider">  <!-- 水平橫線 -->
+
+    <div class="form-container">
+        <h2>登入系統</h2>
+        <form id="loginForm" method="POST" action="/login">
+            <label>
+                信箱
+                <input type="text" name="email">
+            </label>
+            <br><br>
+
+            <label>
+                密碼
+                <input type="password" name="password">
+            </label>
+            <br><br>
+
+
+            <button type="submit">登入</button>    
+        </form>
+    </div>
+
+</body>
+</html>

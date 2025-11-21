@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:  rgb(21, 21, 90);
+    padding: 20px;
+    margin-top: 0;
+}
+
+h2{
+    text-align:center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+form{
+    justify-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column; /* 縱向設定 */
+    justify-content: center;
+}
+
+
+
+.form-container{
+    margin: 0;
+    background: #fff;
+}
+
+label{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 30px;
+}
+
+
+.checkbox-wrap input[type="checkbox"]{
+    margin-left: 0 !important;
+    width: 30px;
+}
+
+input{
+    width: 10vw;
+    padding: 8px;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+input[type="checkbox"] {
+    margin: 0;
+}
+
+button:not(.deletebutton) {
+    text-align: center;
+    margin-top: 20px;
+    width: 10%;
+    padding: 2px 6px;
+    background: rgb(216, 214, 214);
+    color: black;
+    border: 2px solid rgb(105, 104, 104);
+    border-radius:  5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.deletebutton {
+    padding: 2px 6px;
+    background: rgb(216, 214, 214);
+    color: yellow !important; 
+    border: 2px solid rgb(105, 104, 104);
+    border-radius:  5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divider{
+    margin: 40px auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+    background-color: #666;
+    width: 80%;
+}
+.hr{
+    margin: 40px auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 80%;
+}
+
+/* by hotel.html setting */
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
